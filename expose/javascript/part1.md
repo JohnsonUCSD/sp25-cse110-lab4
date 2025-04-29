@@ -11,6 +11,7 @@ final result: 20
 Why should you not use var? Explain why. <br>
 We shouldn't use var because it used to declare variables with function scope, which let the variable be accessed anywhere within the function it was defined in, regardless of the block it was defined in. By doing this, it can lead to naming conflicts and scoping issues in your programs, which is why it shouldn't be used. 
 
+## let declaration 
 ### Question 4
 What is printed by line 9? If the code returns an error, explain why. <br>
 values added: 20
