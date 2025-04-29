@@ -42,4 +42,8 @@
 17. The function will return [2,4,6]. At the start we have an empty array `newArr`. We go into the for loop for the array in the input, [1,2,3], so it will go in the loop three times. In the loop, we are using the callback function, which we are inputting as doSomething, so it will do doSomething(array[i]) on line 4, and then push it into `newArr`. The doSomething function returns (num * 2) for the input given num. First is `i` = 0, so it will do doSomething(array[0]) = doSomething(1) = 1 * 2 = 2 and then it will push 2 into `newArr`. Next is `i` = 1, so it will do doSomething(array[1]) = doSomething(2) = 2 * 2 = 4 and then it will push 4 into `newArr`. Lastly, with `i` = 2, so it will do doSomething(array[2]) = doSomething(3) = 3 * 2 = 6 and then it will push 6 into `newArr`. After this for loop, it returns `newArr`, which we can see is [2,4,6] after everything is pushed. 
 
 ## setInterval(), setTimeout(), clearTimeout()
-19. 
+19. It will print out: <br>
+1<br>
+4<br>
+3<br>
+2<br>
